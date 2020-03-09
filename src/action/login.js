@@ -1,23 +1,30 @@
-import * as actions from './index';
+import * as actions from "./index";
 
 export const loginRequest = (username, password) => ({
   type: actions.LOGIN_REQUEST,
   username,
-  password,
+  password
 });
 
-export const loginSuccess = () => ({
+export const loginSuccess = response => ({
   type: actions.LOGIN_SUCCESS,
+  response
 });
 
-export const loginError = () => ({
+export const loginError = error => ({
   type: actions.LOGIN_ERROR,
+  error
 });
 
 export const loginCancel = () => ({
-  type: actions.LOGIN_CANCEL,
+  type: actions.LOGIN_CANCEL
 });
 
 export const logout = () => ({
-  type: actions.LOGOUT,
+  type: actions.LOGOUT
+});
+
+export const incorrect = incorrect => ({
+  type: actions.INCORRECT,
+  payload: incorrect
 });
