@@ -1,7 +1,15 @@
+#
+
 ```sh
 $ git clone https://github.com/marukohua/hw.git
+$ cd hw
+```
+
+#npm
+
+```
 $ npm install
 $ npm run start
 ```
 
-localhost:1234/
+open http://localhost:1234/
