@@ -19,7 +19,7 @@ Implements a React app that provides simple authentication. Users can view the p
 
 - [x] Both username and password are required fields.
 - [x] The default username/password is guest/guest.
-- [x] Use Material-ui[https://material-ui.com/zh/components/dialogs/] to implement the form.
+- [x] Use [Material-ui](https://material-ui.com/zh/components/dialogs/) to implement the form.
 
 #### Other
 
