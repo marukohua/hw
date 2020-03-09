@@ -21,8 +21,9 @@ Implements a React app that provides simple authentication. Users can view the p
 - [x] The default username/password is guest/guest.
 - [x] Use Material-ui[https://material-ui.com/zh/components/dialogs/] to implement the form.
 
-- [x] Cancel tasks in login flow https://denny.qollie.com/2016/05/14/redux‑saga/#Abortable‑flow‑compensatingtransaction
+#### Other
 
+- [x] Cancel tasks in login flow https://denny.qollie.com/2016/05/14/redux‑saga/#Abortable‑flow‑compensatingtransaction
 - [ ] Tests
 
 ### run demo locally
