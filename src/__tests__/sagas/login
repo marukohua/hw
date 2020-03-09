@@ -1,0 +1,25 @@
+import {
+  takeEvery,
+  take,
+  cancel,
+  cancelled,
+  fork,
+  put,
+  delay,
+  race
+} from "redux-saga/effects";
+import { authorize, loginFlow, loginSaga } from "../../sagas/login";
+import { LOGIN_REQUEST, LOGIN_SUCCESS } from "../../action";
+
+describe("Login Sagas", () => {
+  describe("loginFlow", () => {
+    const generate = loginFlow({
+      type: LOGIN_REQUEST
+    });
+    test("", () => {
+      const expect = fork(authorize, { username: "guest", password: "guest" });
+      const next = generate.next().value;
+      expect(expect).toEqual(next);
+    });
+  });
+});

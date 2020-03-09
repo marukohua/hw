@@ -40,4 +40,10 @@ $ npm install
 $ npm run start
 ```
 
+### test
+
+```
+$ npm run test
+```
+
 open http://localhost:1234/

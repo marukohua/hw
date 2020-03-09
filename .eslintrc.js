@@ -16,7 +16,6 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
-  plugins: ["react"],
-  rules: {},
-  presets: ["@babel/preset-env"]
+  plugins: ["react", "@babel/plugin-transform-modules-commonjs"],
+  rules: {}
 };

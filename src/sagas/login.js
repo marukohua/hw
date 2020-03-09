@@ -6,9 +6,7 @@ import {
   fork,
   put,
   delay,
-  debounce,
-  race,
-  call
+  race
 } from "redux-saga/effects";
 import * as actions from "../action/index";
 
